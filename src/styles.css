@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/* @import "~bootstrap-icons/font/bootstrap-icons.css"; */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.IHeading h3 {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+.mainbox {
+    background: #0D6EFD;
+    max-width: 206px;
+    border-radius: 10px;
+    margin: 28px;
+    cursor: pointer;
+}
+
+.lImage {
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 9px;
+    padding: 5px;
+}
+
+.lesson {
+    padding: 10px;
+    text-align: center;
+}
+
+.lesson h3 {
+    font-size: 100px;
+    min-width: 150px;
+    min-height: 150px;
+}

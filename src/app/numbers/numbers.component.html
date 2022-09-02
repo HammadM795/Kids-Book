@@ -1,0 +1,8 @@
+
+    <div class="row mx-3">
+        <div class="col mainbox" *ngFor="let item of letters">
+            <div class="lesson" (click)="TextToSpeach(item.speaktext==null?item.letter:item.speaktext)">
+                <h3>{{item.letter}}</h3>
+            </div>
+            
+    </div>

@@ -1,0 +1,12 @@
+<div class="row my-4 mx-5">
+    <div class="col" *ngFor="let item of letters">
+        <div class="videolesson">
+            <div class="player">
+                <iframe width="250" height="150" [src]="item.URL" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <h3>{{item.title}}</h3>
+        </div>
+    </div>
+</div>

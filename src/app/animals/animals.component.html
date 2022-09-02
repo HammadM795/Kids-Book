@@ -1,0 +1,13 @@
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col mainbox" *ngFor="let item of letters">
+            <div class="lImage" (click)="TextToSpeach(item.speaktext==null?item.letter:item.speaktext)"><img
+                    src="{{item.image==null?'./assets/Images/placeholder.jpg':item.image}} " alt="placeholder-img">
+            </div>
+            <div class="IHeading">
+                <h3>{{item.letter}}</h3>
+            </div>
+        </div>
+    </div>
+</div>
