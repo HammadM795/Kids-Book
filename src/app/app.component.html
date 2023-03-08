@@ -1,24 +1,31 @@
-<div class="navbar-outline">
-  <nav class="navbar navbar-expand-sm">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <button class="nav-link btn btn-primary active" [routerLink]="['/alphabets']">Alphabets</button>
-      </li>
-      <li class="nav-item">
-        <button class="nav-link btn btn-primary" [routerLink]="['/numbers']">Numbers</button>
-      </li>
-      <li class="nav-item">
-        <button class="nav-link btn btn-primary" [routerLink]="['/poems']">Poems</button>
-      </li>
-      <li class="nav-item">
-        <button class="nav-link btn btn-primary" [routerLink]="['/animals']">Animals</button>
-      </li>
-      <li class="nav-item">
-        <button class="nav-link btn btn-primary" [routerLink]="['/objects']">Object</button>
-      </li>
-    </ul>
-  </nav>
-</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
+  <div class="container-fluid" style="justify-content: space-between;">
+    <!-- <a class="navbar-brand" href="#">Kid Book</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <button class="nav-link btn btn-primary active" [routerLink]="['/alphabets']">Alphabets</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link btn btn-primary" [routerLink]="['/numbers']">Numbers</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link btn btn-primary" [routerLink]="['/poems']">Poems</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link btn btn-primary" [routerLink]="['/animals']">Animals</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link btn btn-primary" [routerLink]="['/objects']">Object</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 <div class="container-fluid p-0">
   <router-outlet></router-outlet>
