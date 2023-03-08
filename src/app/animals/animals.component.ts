@@ -9,132 +9,132 @@ export class AnimalsComponent implements OnInit {
   public letters: Array<Letter> = [
     // { letter: "A", image: "./assets/images/letterA.png", speaktext: "A, A for Apple" },
     {
-      letter: 'A',
+      letter: 'Alligator',
       image: './assets/Images/Animals/A-for-Alligator.jpg',
       speaktext: ' A for Alligator',
     },
     {
-      letter: 'B',
+      letter: 'Bee',
       image: './assets/Images/Animals/B-for-Bee.jpg',
       speaktext: ' B for Bee',
     },
     {
-      letter: 'C',
+      letter: 'Cat',
       image: './assets/Images/Animals/C-for-Cat.jpg',
       speaktext: ' C for Cat',
     },
     {
-      letter: 'D',
+      letter: 'Dog',
       image: './assets/Images/Animals/D-for-Dog.jpg',
       speaktext: ' D for Dog',
     },
     {
-      letter: 'E',
+      letter: 'Elephant',
       image: './assets/Images/Animals/E-for-Elephant.jpg',
       speaktext: ' E for Elephant',
     },
     {
-      letter: 'F',
+      letter: 'Fox',
       image: './assets/Images/Animals/F-for-Fox.jpg',
       speaktext: ' F for Fox',
     },
     {
-      letter: 'G',
+      letter: 'Giraffe',
       image: './assets/Images/Animals/G-for-Giraffe.jpg',
       speaktext: ' G for Giraffe',
     },
     {
-      letter: 'H',
+      letter: 'Hippo',
       image: './assets/Images/Animals/H-for-Hippo.jpg',
       speaktext: ' H for Hippo',
     },
     {
-      letter: 'I',
+      letter: 'Iguana',
       image: './assets/Images/Animals/I-for-Iguana.jpg',
       speaktext: ' I for Iguana',
     },
     {
-      letter: 'J',
+      letter: 'Jelly Fish',
       image: './assets/Images/Animals/J-for-Jellyfish.jpg',
       speaktext: ' J for Jelly Fish',
     },
     {
-      letter: 'K',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Kangroo',
+      image: './assets/Images/Animals/K-for-Kangroo.jpg',
+      speaktext: ' K for Kangroo',
     },
     {
-      letter: 'L',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Lion',
+      image: './assets/Images/Animals/L-for-Lion.jpg',
+      speaktext: ' L for Lion',
     },
     {
-      letter: 'M',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Monkey',
+      image: './assets/Images/Animals/M-for-Monkey.jpg',
+      speaktext: 'M for Monkey',
     },
     {
-      letter: 'N',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Nightingale',
+      image: './assets/Images/Animals/N-for-Nightingale.jpg',
+      speaktext: ' N for Nightingale',
     },
     {
-      letter: 'O',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Owl',
+      image: './assets/Images/Animals/O-for-Owl.jpg',
+      speaktext: ' O for Owl',
     },
     {
-      letter: 'P',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Penguin',
+      image: './assets/Images/Animals/P-for-Penguin.jpg',
+      speaktext: 'P for Penguin',
     },
     {
-      letter: 'Q',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Quail',
+      image: './assets/Images/Animals/Q-for-Quail.jpg',
+      speaktext: ' Q for Quail',
     },
     {
-      letter: 'R',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Raccoon',
+      image: './assets/Images/Animals/R-for-Raccoon.jpg',
+      speaktext: ' R for Raccoon',
     },
     {
-      letter: 'S',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Seal',
+      image: './assets/Images/Animals/S-for-Seal.jpg',
+      speaktext: 'S for Seal',
     },
     {
-      letter: 'T',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Turtle',
+      image: './assets/Images/Animals/T-for-Turtle.jpg',
+      speaktext: ' T for Turtle',
     },
     {
-      letter: 'U',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Unicorn',
+      image: './assets/Images/Animals/U-for-Unicorn.jpg',
+      speaktext: ' U for Unicorn',
     },
     {
-      letter: 'V',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Vulture',
+      image: './assets/Images/Animals/V-for-Vulture.jpg',
+      speaktext: ' V for Vulture',
     },
     {
-      letter: 'W',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Whale',
+      image: './assets/Images/Animals/W-for-Whale.jpg',
+      speaktext: ' W for Whale',
     },
     {
-      letter: 'X',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'X-Ray Fish',
+      image: './assets/Images/Animals/X-for-X-RayFish.jpg',
+      speaktext: ' X for X Ray Fish',
     },
     {
-      letter: 'Y',
-      image: './assets/Images/Animals/J-for-Jellyfish.jpg',
-      speaktext: ' J for Jelly Fish',
+      letter: 'Yak',
+      image: './assets/Images/Animals/Y-for-Yak.jpg',
+      speaktext: ' Y for Yak',
     },
     {
-      letter: 'Z',
+      letter: 'Zebra',
       image: './assets/Images/Animals/Z-for-Zebra.jpg',
       speaktext: ' Z for Zebra',
     },
@@ -142,10 +142,10 @@ export class AnimalsComponent implements OnInit {
 
   public svoice: any;
   constructor() {
-    this.svoice = window.speechSynthesis.getVoices()[1];
+    this.svoice = window.speechSynthesis.getVoices()[0];
   }
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    // throw new Error('Method not implemented.');
   }
   public TextToSpeach(text: string) {
     //alert(text);

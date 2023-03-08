@@ -1,12 +1,28 @@
-<div class="row my-4 mx-5">
+<!-- <div class="row m-4">
     <div class="col" *ngFor="let item of letters">
         <div class="videolesson">
             <div class="player">
-                <iframe width="250" height="150" [src]="item.URL" title="YouTube video player" frameborder="0"
+                <iframe width="300" height="150" [src]="item.URL" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
             <h3>{{item.title}}</h3>
         </div>
     </div>
-</div>
+</div> -->
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col mainbox-poem" *ngFor="let item of letters">
+            <div class="player">
+                <iframe width="275" height="175" [src]="item.URL" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="videolesson">
+                <h3>{{item.title}}</h3>
+            </div>
+        </div>
+    </div>

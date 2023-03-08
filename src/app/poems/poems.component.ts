@@ -52,11 +52,29 @@ export class PoemsComponent implements OnInit {
       ),
     },
     {
-      title: 'Main Tota',
+      title: 'Main Tota Main Tota',
       URL: this.sanitizer.bypassSecurityTrustResourceUrl(
         'https://www.youtube.com/embed/Kj6ZzR0LKpg'
       ),
     },
+    // {
+    //   title: 'Chitti Khel Raha Hai Doctor Doctor',
+    //   URL: this.sanitizer.bypassSecurityTrustResourceUrl(
+    //     'https://youtu.be/RjwO-n5Q8WE'
+    //   ),
+    // },
+    // {
+    //   title: 'Chal Mere Ghode Chal Chal Chal',
+    //   URL: this.sanitizer.bypassSecurityTrustResourceUrl(
+    //     'https://youtu.be/tVw3NHmWcTs'
+    //   ),
+    // },
+    // {
+    //   title: 'Nani Teri Morni ko mor le gaye',
+    //   URL: this.sanitizer.bypassSecurityTrustResourceUrl(
+    //     'https://youtu.be/nyY0xIz6u8Y'
+    //   ),
+    // },
   ];
 
   public svoice: any;

@@ -41,7 +41,7 @@ export class AlphabetsComponent implements OnInit {
     this.svoice = window.speechSynthesis.getVoices()[1];
   }
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    // throw new Error('Method not implemented.');
   }
   public TextToSpeach(text: string) {
     //alert(text);

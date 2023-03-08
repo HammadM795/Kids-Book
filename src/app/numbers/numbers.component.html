@@ -1,8 +1,21 @@
-
-    <div class="row mx-3">
-        <div class="col mainbox" *ngFor="let item of letters">
-            <div class="lesson" (click)="TextToSpeach(item.speaktext==null?item.letter:item.speaktext)">
-                <h3>{{item.letter}}</h3>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col mainbox" *ngFor="let item of numbers">
+            <div class="lImage" (click)="TextToSpeach(item.speaktext==null?item.number:item.speaktext)"><img
+                    src="{{item.image==null?'./assets/Images/placeholder.jpg':item.image}}">
             </div>
-            
+            <div class="IHeading">
+                <h3>{{item.number}}</h3>
+            </div>
+        </div>
     </div>
+</div>
+
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $( document ).ready( function () {
+        $( '.mainbox' ).click( function () {
+            $( this ).addClass( 'active' )
+        } )
+    } );
+</script> -->

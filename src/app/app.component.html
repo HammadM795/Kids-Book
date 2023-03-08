@@ -1,29 +1,36 @@
 <div class="navbar-outline">
   <nav class="navbar navbar-expand-sm">
-    <div class="container-fluid">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <button class="nav-link btn-primary active" [routerLink]="['/alphabets']">Alphabets</button>
-        </li>
-        <li class="nav-item">
-          <button class="nav-link btn btn-primary" [routerLink]="['/numbers']">Numbers</button>
-        </li>
-        <li class="nav-item">
-          <button class="nav-link btn btn-primary" [routerLink]="['/animals']">Animals</button>
-        </li>
-        <li class="nav-item">
-          <button class="nav-link btn btn-primary" [routerLink]="['/objects']">Object</button>
-        </li>
-        <li class="nav-item">
-          <button class="nav-link btn btn-primary" [routerLink]="['/poems']">Poems</button>
-        </li>
-      </ul>
-    </div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <button class="nav-link btn btn-primary active" [routerLink]="['/alphabets']">Alphabets</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link btn btn-primary" [routerLink]="['/numbers']">Numbers</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link btn btn-primary" [routerLink]="['/poems']">Poems</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link btn btn-primary" [routerLink]="['/animals']">Animals</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link btn btn-primary" [routerLink]="['/objects']">Object</button>
+      </li>
+    </ul>
   </nav>
 </div>
 
-
 <div class="container-fluid p-0">
   <router-outlet></router-outlet>
-  <app-footer></app-footer>
+  <!-- <app-footer></app-footer> -->
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script>
+  // Toggle active state of navbar links
+  $( '.navbar-nav .nav-link' ).click( function () {
+    $( '.navbar-nav .nav-link' ).removeClass( 'active' )
+    $( this ).addClass( 'active' )
+  } );
+</script>
